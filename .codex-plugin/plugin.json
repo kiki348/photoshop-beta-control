@@ -1,0 +1,44 @@
+{
+  "name": "photoshop-beta-control",
+  "version": "0.2.0",
+  "description": "Control local Adobe Photoshop or Photoshop Beta from Codex through a Windows COM, ExtendScript, and MCP bridge.",
+  "author": {
+    "name": "Codex Photoshop Automation Contributors",
+    "url": "https://github.com/your-name/photoshop-beta-control"
+  },
+  "homepage": "https://github.com/your-name/photoshop-beta-control",
+  "repository": "https://github.com/your-name/photoshop-beta-control",
+  "license": "MIT",
+  "keywords": [
+    "photoshop",
+    "image-editing",
+    "mcp",
+    "windows",
+    "codex",
+    "automation",
+    "extendscript"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Photoshop Beta Control",
+    "shortDescription": "Let Codex operate local Photoshop for editable design and office workflows.",
+    "longDescription": "A local Windows MCP bridge for controlling Adobe Photoshop or Photoshop Beta from Codex. It supports document creation, image placement, editable text layers, layer management, editable vector paths, texture-aware recoloring, common adjustments, exports, batch workflows, and custom ExtendScript for advanced tasks.",
+    "developerName": "Codex Photoshop Automation Contributors",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write",
+      "Local"
+    ],
+    "websiteURL": "https://github.com/your-name/photoshop-beta-control",
+    "privacyPolicyURL": "https://github.com/your-name/photoshop-beta-control#privacy",
+    "termsOfServiceURL": "https://github.com/your-name/photoshop-beta-control#license",
+    "defaultPrompt": [
+      "Open this image in Photoshop, add a title layer, and export a PNG.",
+      "Create a 1024x1024 Photoshop document and draw editable line-art paths.",
+      "Batch resize these product images and export web-ready JPEG copies."
+    ],
+    "brandColor": "#31A8FF"
+  }
+}

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-label="Codex Photoshop automation architecture">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset="1" stop-color="#1f2937"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="520" rx="28" fill="url(#bg)"/>
+  <text x="64" y="72" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" fill="#f8fafc">Photoshop Beta Control Architecture</text>
+  <text x="64" y="110" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#94a3b8">Codex plans the task, MCP carries structured calls, and Photoshop executes editable local operations.</text>
+
+  <g filter="url(#shadow)">
+    <rect x="70" y="180" width="230" height="150" rx="18" fill="url(#card)" stroke="#31a8ff" stroke-width="2"/>
+    <text x="185" y="238" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#ffffff">Codex</text>
+    <text x="185" y="274" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#cbd5e1">自然语言任务</text>
+    <text x="185" y="302" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#cbd5e1">规划和工具选择</text>
+
+    <rect x="370" y="180" width="250" height="150" rx="18" fill="url(#card)" stroke="#facc15" stroke-width="2"/>
+    <text x="495" y="232" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="700" fill="#ffffff">MCP Server</text>
+    <text x="495" y="268" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#cbd5e1">Python JSON-RPC</text>
+    <text x="495" y="296" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#cbd5e1">结构化工具参数</text>
+
+    <rect x="690" y="180" width="250" height="150" rx="18" fill="url(#card)" stroke="#22c55e" stroke-width="2"/>
+    <text x="815" y="232" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="700" fill="#ffffff">PowerShell Bridge</text>
+    <text x="815" y="268" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#cbd5e1">COM + ExtendScript</text>
+    <text x="815" y="296" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#cbd5e1">本地执行</text>
+
+    <rect x="1000" y="180" width="140" height="150" rx="18" fill="#001e36" stroke="#31a8ff" stroke-width="2"/>
+    <text x="1070" y="238" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="29" font-weight="800" fill="#31a8ff">Ps</text>
+    <text x="1070" y="274" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#cbd5e1">Photoshop</text>
+    <text x="1070" y="302" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#cbd5e1">图层/路径/导出</text>
+  </g>
+
+  <path d="M310 255 H355" stroke="#31a8ff" stroke-width="5" stroke-linecap="round"/>
+  <path d="M350 242 L370 255 L350 268 Z" fill="#31a8ff"/>
+  <path d="M630 255 H675" stroke="#facc15" stroke-width="5" stroke-linecap="round"/>
+  <path d="M670 242 L690 255 L670 268 Z" fill="#facc15"/>
+  <path d="M950 255 H985" stroke="#22c55e" stroke-width="5" stroke-linecap="round"/>
+  <path d="M980 242 L1000 255 L980 268 Z" fill="#22c55e"/>
+
+  <rect x="210" y="390" width="780" height="58" rx="16" fill="#0b1220" stroke="#334155"/>
+  <text x="600" y="427" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#e2e8f0">All image files stay local unless your Codex workflow explicitly sends or uploads them.</text>
+</svg>

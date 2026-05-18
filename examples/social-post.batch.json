@@ -1,0 +1,43 @@
+{
+  "steps": [
+    {
+      "tool": "photoshop_create_document",
+      "arguments": {
+        "widthPx": 1920,
+        "heightPx": 1080,
+        "name": "Codex social post",
+        "backgroundColor": "#111827",
+        "resolution": 72
+      }
+    },
+    {
+      "tool": "photoshop_add_text_layer",
+      "arguments": {
+        "text": "Codex 接管 Photoshop",
+        "layerName": "editable headline",
+        "xPx": 120,
+        "yPx": 180,
+        "sizePx": 86,
+        "color": "#FFFFFF"
+      }
+    },
+    {
+      "tool": "photoshop_add_text_layer",
+      "arguments": {
+        "text": "自动排版 / 可编辑图层 / 本地导出",
+        "layerName": "editable subtitle",
+        "xPx": 126,
+        "yPx": 300,
+        "sizePx": 34,
+        "color": "#31A8FF"
+      }
+    },
+    {
+      "tool": "photoshop_export_active",
+      "arguments": {
+        "outputPath": "C:\\temp\\codex-social-post.jpg",
+        "jpegQuality": 10
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-label="Photoshop automation workflow">
+  <rect width="1200" height="620" rx="28" fill="#f8fafc"/>
+  <text x="60" y="72" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="800" fill="#0f172a">Recommended Workflow</text>
+  <text x="60" y="110" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#475569">Use structured tools first. Keep Photoshop deliverables editable. Export previews for review.</text>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="70" y="170" width="220" height="120" rx="18" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+    <text x="180" y="220" text-anchor="middle" font-size="24" font-weight="800" fill="#0c4a6e">1. Status</text>
+    <text x="180" y="255" text-anchor="middle" font-size="16" fill="#075985">photoshop_status</text>
+
+    <rect x="350" y="170" width="220" height="120" rx="18" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/>
+    <text x="460" y="220" text-anchor="middle" font-size="24" font-weight="800" fill="#713f12">2. Build</text>
+    <text x="460" y="255" text-anchor="middle" font-size="16" fill="#854d0e">canvas / image / text</text>
+
+    <rect x="630" y="170" width="220" height="120" rx="18" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+    <text x="740" y="220" text-anchor="middle" font-size="24" font-weight="800" fill="#14532d">3. Edit</text>
+    <text x="740" y="255" text-anchor="middle" font-size="16" fill="#166534">paths / layers / recolor</text>
+
+    <rect x="910" y="170" width="220" height="120" rx="18" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
+    <text x="1020" y="220" text-anchor="middle" font-size="24" font-weight="800" fill="#4c1d95">4. Export</text>
+    <text x="1020" y="255" text-anchor="middle" font-size="16" fill="#5b21b6">PNG / JPG / PSD</text>
+  </g>
+
+  <path d="M295 230 H345" stroke="#64748b" stroke-width="4" stroke-linecap="round"/>
+  <path d="M340 218 L358 230 L340 242 Z" fill="#64748b"/>
+  <path d="M575 230 H625" stroke="#64748b" stroke-width="4" stroke-linecap="round"/>
+  <path d="M620 218 L638 230 L620 242 Z" fill="#64748b"/>
+  <path d="M855 230 H905" stroke="#64748b" stroke-width="4" stroke-linecap="round"/>
+  <path d="M900 218 L918 230 L900 242 Z" fill="#64748b"/>
+
+  <rect x="95" y="380" width="1010" height="140" rx="22" fill="#0f172a"/>
+  <text x="130" y="430" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="800" fill="#ffffff">Example prompt</text>
+  <text x="130" y="474" font-family="Segoe UI, Arial, sans-serif" font-size="21" fill="#cbd5e1">"Create a 1024x1024 Photoshop document, draw editable Fuji line-art paths, add title text, then export PNG and PSD."</text>
+</svg>

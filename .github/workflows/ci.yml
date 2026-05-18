@@ -1,0 +1,53 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Validate Python
+        run: python -m py_compile scripts/mcp_server.py
+      - name: Validate JSON
+        shell: pwsh
+        run: |
+          Get-ChildItem -Recurse -Include *.json -File | ForEach-Object {
+            Get-Content -Raw -LiteralPath $_.FullName | ConvertFrom-Json | Out-Null
+          }
+      - name: Parse PowerShell bridge
+        shell: pwsh
+        run: |
+          $errors = $null
+          [System.Management.Automation.PSParser]::Tokenize((Get-Content -Raw -LiteralPath "scripts/photoshop_bridge.ps1"), [ref]$errors) | Out-Null
+          if ($errors) { $errors | Format-List; exit 1 }
+      - name: Validate MCP tools/list
+        shell: pwsh
+        run: |
+          @'
+          import json
+          import subprocess
+          import sys
+
+          p = subprocess.Popen(
+              [sys.executable, "scripts/mcp_server.py"],
+              stdin=subprocess.PIPE,
+              stdout=subprocess.PIPE,
+              stderr=subprocess.PIPE,
+              text=True,
+              encoding="utf-8",
+          )
+          p.stdin.write(json.dumps({"jsonrpc":"2.0","id":1,"method":"initialize","params":{}}) + "\n")
+          p.stdin.write(json.dumps({"jsonrpc":"2.0","id":2,"method":"tools/list","params":{}}) + "\n")
+          p.stdin.flush()
+          p.stdout.readline()
+          result = json.loads(p.stdout.readline())
+          p.terminate()
+          assert "tools" in result["result"]
+          assert len(result["result"]["tools"]) >= 10
+          '@ | python -

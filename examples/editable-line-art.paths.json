@@ -1,0 +1,34 @@
+{
+  "paths": [
+    {
+      "name": "mountain-left-ridge",
+      "stroke": true,
+      "strokeColor": "#111111",
+      "points": [
+        { "x": 220, "y": 820 },
+        { "x": 420, "y": 540 },
+        { "x": 560, "y": 300 }
+      ]
+    },
+    {
+      "name": "mountain-right-ridge",
+      "stroke": true,
+      "strokeColor": "#111111",
+      "points": [
+        { "x": 560, "y": 300 },
+        { "x": 730, "y": 550 },
+        { "x": 900, "y": 820 }
+      ]
+    },
+    {
+      "name": "cloud-curve",
+      "stroke": true,
+      "strokeColor": "#111111",
+      "points": [
+        { "x": 300, "y": 640, "rightX": 340, "rightY": 590, "smooth": true },
+        { "x": 390, "y": 610, "leftX": 350, "leftY": 585, "rightX": 430, "rightY": 635, "smooth": true },
+        { "x": 480, "y": 635, "leftX": 445, "leftY": 655, "smooth": true }
+      ]
+    }
+  ]
+}

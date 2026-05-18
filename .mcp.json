@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "photoshop-beta-control": {
+      "command": "python",
+      "args": [
+        "./scripts/mcp_server.py"
+      ]
+    }
+  }
+}

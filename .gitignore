@@ -1,0 +1,23 @@
+.DS_Store
+Thumbs.db
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Local generated files
+tmp/
+outputs/
+*.psd
+*.psb
+*.tif
+*.tiff
+
+# Local secrets or machine-specific config
+.env
+*.local.json
+*.log
