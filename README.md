@@ -44,7 +44,7 @@
 
 ```powershell
 cd $env:USERPROFILE\.codex\plugins
-git clone https://github.com/your-name/photoshop-beta-control.git
+git clone https://github.com/kiki348/photoshop-beta-control.git
 ```
 
 也可以把本目录复制到任意 Codex 可加载的本地插件目录。

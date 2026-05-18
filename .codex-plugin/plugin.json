@@ -4,10 +4,10 @@
   "description": "Control local Adobe Photoshop or Photoshop Beta from Codex through a Windows COM, ExtendScript, and MCP bridge.",
   "author": {
     "name": "Codex Photoshop Automation Contributors",
-    "url": "https://github.com/your-name/photoshop-beta-control"
+    "url": "https://github.com/kiki348/photoshop-beta-control"
   },
-  "homepage": "https://github.com/your-name/photoshop-beta-control",
-  "repository": "https://github.com/your-name/photoshop-beta-control",
+  "homepage": "https://github.com/kiki348/photoshop-beta-control",
+  "repository": "https://github.com/kiki348/photoshop-beta-control",
   "license": "MIT",
   "keywords": [
     "photoshop",
@@ -31,9 +31,9 @@
       "Write",
       "Local"
     ],
-    "websiteURL": "https://github.com/your-name/photoshop-beta-control",
-    "privacyPolicyURL": "https://github.com/your-name/photoshop-beta-control#privacy",
-    "termsOfServiceURL": "https://github.com/your-name/photoshop-beta-control#license",
+    "websiteURL": "https://github.com/kiki348/photoshop-beta-control",
+    "privacyPolicyURL": "https://github.com/kiki348/photoshop-beta-control#privacy",
+    "termsOfServiceURL": "https://github.com/kiki348/photoshop-beta-control#license",
     "defaultPrompt": [
       "Open this image in Photoshop, add a title layer, and export a PNG.",
       "Create a 1024x1024 Photoshop document and draw editable line-art paths.",

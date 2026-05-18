@@ -13,7 +13,7 @@
 
 ```powershell
 cd $env:USERPROFILE\.codex\plugins
-git clone https://github.com/your-name/photoshop-beta-control.git
+git clone https://github.com/kiki348/photoshop-beta-control.git
 ```
 
 ### 或复制到项目插件目录
