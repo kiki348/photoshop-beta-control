@@ -1,4 +1,6 @@
-# Photoshop Beta Control
+# 智能体控制 PS 插件 | Photoshop Beta Control
+
+> 让 Codex 真的接管本地 Photoshop：新建画布、放图、加字、改色、画可编辑路径、批量导出，一套面向设计和办公自动化的本地 MCP 插件。
 
 让 Codex 通过本地 MCP 插件控制 Windows 上的 Adobe Photoshop / Photoshop Beta，完成图片打开、画布创建、图层编辑、可编辑路径绘制、质感换色、批量导出等真实办公和设计自动化任务。
 

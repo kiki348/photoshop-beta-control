@@ -1,7 +1,7 @@
 {
   "name": "photoshop-beta-control",
   "version": "0.2.0",
-  "description": "Control local Adobe Photoshop or Photoshop Beta from Codex through a Windows COM, ExtendScript, and MCP bridge.",
+  "description": "智能体控制 PS 插件：让 Codex 通过 Windows COM、ExtendScript 和 MCP 操作本地 Adobe Photoshop / Photoshop Beta。",
   "author": {
     "name": "Codex Photoshop Automation Contributors",
     "url": "https://github.com/kiki348/photoshop-beta-control"
@@ -21,9 +21,9 @@
   "skills": "./skills/",
   "mcpServers": "./.mcp.json",
   "interface": {
-    "displayName": "Photoshop Beta Control",
-    "shortDescription": "Let Codex operate local Photoshop for editable design and office workflows.",
-    "longDescription": "A local Windows MCP bridge for controlling Adobe Photoshop or Photoshop Beta from Codex. It supports document creation, image placement, editable text layers, layer management, editable vector paths, texture-aware recoloring, common adjustments, exports, batch workflows, and custom ExtendScript for advanced tasks.",
+    "displayName": "智能体控制 PS 插件",
+    "shortDescription": "让 Codex 操作本地 Photoshop，完成可编辑设计和办公自动化。",
+    "longDescription": "智能体控制 PS 插件是一个本地 Windows MCP 桥接工具，让 Codex 控制 Adobe Photoshop 或 Photoshop Beta。它支持新建画布、放置图片、可编辑文字层、图层管理、可编辑路径、质感换色、常见调整、批量导出和自定义 ExtendScript。",
     "developerName": "Codex Photoshop Automation Contributors",
     "category": "Productivity",
     "capabilities": [
